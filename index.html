@@ -16,9 +16,9 @@
 <body>
     
     <!-- header-section start -->
-    <header>
+    <header id="home">
         <!-- navbar-start -->
-        <section class="container">
+        <section class="container fixed-top">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand" href="#">
                         <img src="images/logo.png" class="d-inline-block align-top" alt="">
@@ -30,16 +30,16 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Backpacks</a>
+                                <a class="nav-link" href="#backpack">Backpacks</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                             </li>
                         </ul>
                     </div>
@@ -108,7 +108,7 @@
     <!-- main-section start -->
     <main>
         <!-- catagories-section start -->
-        <section class="container my-5">
+        <section class="container my-5" id="catagories">
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 catagories">
                 <div class="col">
                   <div class="p-3 border d-flex justify-content-between align-items-center watch-color">
@@ -133,7 +133,7 @@
         <!-- catagories-section end -->
 
         <!-- shoes-section start -->
-        <section class="container my-5 shoes">
+        <section class="container my-5 shoes" id="shoes">
             <header>
                 <h1>Shoes</h1>
             </header>
@@ -182,7 +182,7 @@
         <!-- shoes-section end -->
 
         <!-- backpack-section start -->
-        <section class="container my-5 backpack">
+        <section class="container my-5 backpack" id="backpack">
             <header>
                 <h1>Backpack</h1>
             </header>
